@@ -1,0 +1,13 @@
+variable "linux_ami" {}
+variable "windows_ami" {}
+variable "instance_type" {}
+variable "user_data" {}
+variable "public_subnet" {}
+variable "private_subnet" {}
+variable "public_bastion" {}
+variable "windows_rdp" {}
+variable "windows_admin_workstation" {}
+variable "internal_apache_webserver" {}
+variable "webserver_tg" {}
+variable "win_instance_profile" {}
+variable "al2_instance_profile" {}

@@ -37,6 +37,7 @@ resource "aws_lb_target_group" "webserver_tg" {
     unhealthy_threshold = var.lb_unhealthy_threshold
     timeout             = var.lb_timeout
     interval            = var.lb_interval
+    path                = "index.html"
     protocol            = "HTTPS"
     port                = 443
   }
